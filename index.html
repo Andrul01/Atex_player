@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <img src="assets/img/logo.png" alt="">
+                tex
+            </li>
+            <li>home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="playlist">
+            <h1>Favourite Playlist</h1>
+            <div class="songcontainer"> 
+                <div class="songs">
+                    <img src="assets/img/1.jpg" alt="">
+                    <span class="songName">somebody</span>
+                    <span class="songplay">5:30 </span>
+                    <img class="play"  src="assets/img/play.png" id="0" alt="">
+                </div>
+                <div class="songs">
+                    <img src="assets/img/1.jpg" alt="">
+                    <span class="songName">somebody</span>
+                    <span class="songplay">5:30 </span>
+                    <img class="play" src="assets/img/play.png" id="1" alt="">
+                </div>
+                <div class="songs">
+                    <img src="assets/img/1.jpg" alt="">
+                    <span class="songName">somebody</span>
+                    <span class="songplay">5:30 </span>
+                    <img class="play" src="assets/img/play.png" id="2" alt="">
+                </div>
+                <div class="songs">
+                    <img src="assets/img/1.jpg" alt="">
+                    <span class="songName">somebody</span>
+                    <span class="songplay">5:30 </span>
+                    <img class="play" src="assets/img/play.png" id="3" alt="">
+                </div>
+                <div class="songs">
+                    <img src="assets/img/1.jpg" alt="">
+                    <span class="songName">somebody</span>
+                    <span class="songplay">5:30 </span>
+                    <img class="play" src="assets/img/play.png" id="4" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cover"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" max="100" value="0" style="width:350px">
+        <div class="icons">
+            <img src="assets/img/backward.png" id="previous" alt="">
+            <img src="assets/img/play.png" id="playMusic" alt="">
+            <img src="assets/img/forward.png" id="next" alt="">
+        </div>
+        <div class="info">
+            <img src="assets/img/bgm.gif" alt="" id="gif">
+            <h4 id="currentSong">somebody</h4>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
